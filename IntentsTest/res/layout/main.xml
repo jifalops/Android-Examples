@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+	    <LinearLayout 
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content">
+			<EditText 
+				android:id="@+id/uriEditText" 
+				android:hint="Intent URI"
+				android:layout_width="fill_parent" 
+				android:layout_marginRight="50dp"
+				android:layout_height="wrap_content" />
+			<Button 
+				android:text="Go" 
+				android:id="@+id/uriButton" 
+				android:layout_width="50dp" 
+				android:layout_marginLeft="-50dp"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>
